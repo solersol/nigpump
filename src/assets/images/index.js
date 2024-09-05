@@ -35,6 +35,14 @@ import diamondImage from './diamond.png'
 import buttonImage from './buttonImage.png'
 import bed from './bed.png'
 import rd5 from './rd5.png'
+import pimg1 from './pimg1.png'
+import pimg2 from './pimg2.png'
+import pimg3 from './pimg3.png'
+import pimg4 from './pimg4.png'
+import pimg5 from './pimg5.png'
+import pimg6 from './pimg6.png'
+import pimgTop from './pimgTop.png'
+
 
 
 
@@ -83,6 +91,13 @@ export {
     buttonImage,
     bed,
     rd5,
+    pimg1,
+    pimg2,
+    pimg3,
+    pimg4,
+    pimg5,
+    pimg6,
+    pimgTop,
 
 
 

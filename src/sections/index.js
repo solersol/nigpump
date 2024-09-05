@@ -19,6 +19,8 @@ import Join from "./Join"
 import ComingSoon from './ComingSoon'
 import ButtonSection2 from './ButtonSection2'
 import Footer2 from './Footer2'
+import Pump from './Pump'
+
 
 
 
@@ -43,5 +45,6 @@ export{
     ComingSoon,
     ButtonSection2,
     Footer2,
-    Roadmap5
+    Roadmap5,
+    Pump
 }

@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon, Hero3, Footer2, Roadmap5} from "./sections";
+import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon, Hero3, Footer2, Roadmap5, Pump} from "./sections";
 import VideoBackground from "./components/VideoBackground";
 import VideoBackground2 from "./components/VideoBackground2";
 
@@ -15,7 +15,7 @@ import LoadingScreen from "./components/LoadingScreen"; // Import the loading sc
 // Import the background image
 import rdImage from './assets/images/roadmap2.png';
 import main2 from './assets/images/main2.png';
-import main3 from './assets/images/BG.svg';
+import main3 from './assets/images/main3.png';
 import main4 from './assets/images/bgmap.png';
 
 import bgImage from './assets/images/main.png';
@@ -37,28 +37,28 @@ import buttonBg2 from './assets/images/buttonBg2.png'
 
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000); // Set the loading time to 3 seconds
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000); // Set the loading time to 3 seconds
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
+  // if (isLoading) {
+  //   return <LoadingScreen />;
+  // }
 return(
-  <main className="relative bg-[#b3ddd8] "  >
+  <main className="relative bg-[#000000] "  >
      {/* <Nav />  */}
    
 
   
 
 
-     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section>
+     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><Pump /></section>
      {/* <Separator /> 
      <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main4})` }}><Roadmap5 /></section> */}
      
