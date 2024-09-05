@@ -6,7 +6,7 @@ import { pimg1, pimg2, pimg3, pimg4, pimg5, pimg6 } from '../assets/images'; // 
 const Pump = () => {
   const images = [
     { link: "https://pump.fun/3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump", image: pimg1 },
-    { link: "https://pump.fun/", image: pimg2 },
+    { link: "https://pump.fun/FeLPkxQPohxU9wUuMTFn3p7yVRwxMw3keZJeBFenpump", image: pimg2 },
     { link: "https://pump.fun/7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t", image: pimg3 },
     { link: "https://pump.fun/A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump", image: pimg4 },
     { link: "https://pump.fun/Ep5tnKTSkLDeQ12ctS3RhQNcbcApkcyJcGPgHh4dpump", image: pimg5 },
